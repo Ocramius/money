@@ -1,5 +1,5 @@
 {
-    "name": "moneyphp/money",
+    "name": "ocramius/deprecated-money",
     "description": "PHP implementation of Fowler's Money pattern",
     "keywords": [
         "money",
@@ -46,6 +46,9 @@
         "psr/cache": "^1.0.1",
         "roave/infection-static-analysis-plugin": "^1.7",
         "vimeo/psalm": "^4.7"
+    },
+    "replace": {
+        "moneyphp/money": "self.version"
     },
     "suggest": {
         "ext-gmp": "Calculate without integer limits",
